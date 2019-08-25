@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/card_one"
+        >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:id="@+id/image_one"
+            android:src="@drawable/temple"
+            android:scaleType="centerCrop"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate"
+            android:src="@drawable/ic_star_yellow_24dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rate"
+            android:text="@string/tv_rating"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/text_color"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/btn_day"
+            android:backgroundTint="@color/common_color"
+            android:text="$99/day"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/mybutton"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:text="@string/the_westeen"
+        android:textSize="20dp"
+        android:layout_below="@+id/card_one"
+        android:textColor="@color/color_gray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_location"
+        android:text="@string/gulshan"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="common_color">#950E83</color>
+    <color name="button_color">#F2ECEC</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="color_gray">#0D0C0D</color>
+    <color name="tv_black">#0D0C0D</color>
+</resources>
